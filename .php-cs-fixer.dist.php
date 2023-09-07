@@ -74,7 +74,6 @@ return $config
         'curly_braces_position' => true,
         'declare_equal_normalize' => true,
         'declare_parentheses' => true,
-        'function_typehint_space' => true,
         'general_phpdoc_annotation_remove' => [
             'annotations' => [
                 'author',
@@ -188,6 +187,7 @@ return $config
         'random_api_migration' => true,
         'return_assignment' => true,
         'return_type_declaration' => true,
+        'self_static_accessor' => true,
         'semicolon_after_instruction' => true,
         'short_scalar_cast' => true,
         'single_line_comment_style' => true,
@@ -222,6 +222,11 @@ return $config
             ],
         ],
         'trim_array_spaces' => true,
+        'type_declaration_spaces' => [
+            'elements' => [
+                'function',
+            ],
+        ],
         'unary_operator_spaces' => true,
         'visibility_required' => [
             'elements' => [
